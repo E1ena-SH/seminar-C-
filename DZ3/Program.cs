@@ -3,6 +3,18 @@
 // 14212 -> нет
 // 12821 -> да
 
+// ****решение 1
+// Console.WriteLine("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// string result = Convert.ToString(num);
+
+// if (num>=10000 && num < 100000) 
+// {
+//     if (result[0] == result[4] && result[1] == result[3]) Console.WriteLine("Палиандром");
+// }
+// else Console.WriteLine("не палиандром");
+
+// ****решение 2
 // Console.WriteLine("Введите число: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine();
@@ -48,10 +60,10 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-Console.WriteLine("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine();
-for(int i = 1; i <= num; i++)
-{
-    Console.WriteLine(Math.Pow(i,3));
-}
+// Console.WriteLine("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine();
+// for(int i = 1; i <= num; i++)
+// {
+//     Console.WriteLine(Math.Pow(i,3));
+// }
