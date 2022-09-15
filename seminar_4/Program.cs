@@ -92,20 +92,3 @@
 // }
 
 // Console.WriteLine("произведение чисел = "+ GetCount(num)); //здесь мы передаем заданное число (введеное пользователем) в функцию)
-
-// // ==== Задача 27
-// Напишите программу, которая принимает на вход 
-// число N и выдает произведение чисел от 1 до N. 
-// 4 => 24 5 => 120
-
-int []array = GetArray(8);
-Console.WriteLine(string.Join("," + array));
-int [] GetArray (int size)
-{
-    int [] result = new int [size];
-    for (int i =0; i < size; i++)
-    {
-        result[i]= new Random().Next(0,2);
-    }
-    return result;
-}
