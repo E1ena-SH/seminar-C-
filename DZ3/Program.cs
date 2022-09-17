@@ -11,8 +11,9 @@
 // if (num>=10000 && num < 100000) 
 // {
 //     if (result[0] == result[4] && result[1] == result[3]) Console.WriteLine("Палиандром");
+//     else Console.WriteLine("не палиандром");
 // }
-// else Console.WriteLine("не палиандром");
+// else Console.WriteLine("ошибка");
 
 // ****решение 2
 // Console.WriteLine("Введите число: ");
